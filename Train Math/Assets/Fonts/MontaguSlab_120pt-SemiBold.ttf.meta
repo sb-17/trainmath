@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 9c391b07bcc78a7409cb1b02b652aacf
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Montagu Slab 120pt
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f376230fe06345241a921ec9f9a426e3, type: 3}
+  - {fileID: 12800000, guid: a12eec9a6866418429fda6af5ab3c0c0, type: 3}
+  - {fileID: 12800000, guid: 502f9806769fcb04ab69642f54b5d3ef, type: 3}
+  - {fileID: 12800000, guid: 9b3089aa46e396243a655114b8b1f22c, type: 3}
+  - {fileID: 12800000, guid: d1df06469d256f844bc803c006600a30, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
