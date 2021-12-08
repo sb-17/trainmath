@@ -20,8 +20,10 @@ public class Game : MonoBehaviour
 
         if (PlayerPrefs.GetInt("Game") == 1)
         {
-            int num1 = Random.Range(1, 1000000);
-            int num2 = Random.Range(1, 1000000);
+            int max = PlayerPrefs.GetInt("AdditionMax");
+
+            int num1 = Random.Range(1, max);
+            int num2 = Random.Range(1, max);
 
             example.text = num1.ToString() + " + " + num2.ToString();
 
@@ -29,7 +31,9 @@ public class Game : MonoBehaviour
         }
         else if (PlayerPrefs.GetInt("Game") == 2)
         {
-            int num1 = Random.Range(3, 1000000);
+            int max = PlayerPrefs.GetInt("SubtractionMax");
+
+            int num1 = Random.Range(3, max);
             int num2 = Random.Range(1, num1);
 
             example.text = num1.ToString() + " - " + num2.ToString();
@@ -38,8 +42,10 @@ public class Game : MonoBehaviour
         }
         else if (PlayerPrefs.GetInt("Game") == 3)
         {
-            int num1 = Random.Range(1, 2000);
-            int num2 = Random.Range(1, 2000);
+            int max = PlayerPrefs.GetInt("MultiplicationMax");
+
+            int num1 = Random.Range(1, max);
+            int num2 = Random.Range(1, max);
 
             example.text = num1.ToString() + " x " + num2.ToString();
 
@@ -48,8 +54,10 @@ public class Game : MonoBehaviour
         }
         else if (PlayerPrefs.GetInt("Game") == 4)
         {
-            int num1 = Random.Range(1, 2000);
-            int num2 = Random.Range(1, 2000);
+            int max = PlayerPrefs.GetInt("DivisionMax");
+
+            int num1 = Random.Range(1, max);
+            int num2 = Random.Range(1, max);
             int num3 = num1 * num2;
 
             example.text = num3.ToString() + " / " + num1.ToString();
